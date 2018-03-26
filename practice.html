@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 05 - DOM Practice</title>
+    <script src="js/dom-practice.js"></script>
+    <script>
+       /* STEP 5 */
+        document.addEventListener("DOMContentLoaded", init, false);
+        function init() {
+            window.document.getElementById("btn3").addEventListener("click", function () {              
+                "use strict"; window.alert("I have been clicked");}, false);
+        }
+    </script>
+</head>
+<body>
+    
+<!--------------------- STEP 1 ------------------------>
+  
+    <h3>STEP 1</h3>
+   
+    <button onclick="displayMsg1();">STEP 1</button>  
+    
+<!--------------------- STEP 2 ------------------------>
+    <h3>STEP 2</h3>
+
+    <button id="btn">STEP 2</button>
+
+<!--------------------- STEP 3 ------------------------>
+    <h3>STEP 3</h3>
+
+    <button id="btn1">STEP 3</button>
+    
+<!--------------------- STEP 4 ------------------------>
+    <h3>STEP 4</h3>
+
+    <button id="btn2">STEP 4</button>
+
+<!--------------------- STEP 5 ------------------------>
+   <h3>STEP 5</h3>
+    
+    <button id="btn3">STEP 5</button>
+
+<!--------------------- STEP 6 ------------------------>
+    <h3>STEP 6</h3>
+
+    <a id="redirect" href="http://www.google.com">Visit Google</a>
+
+<!--------------------- STEP 7 ------------------------>
+   <h3>STEP 7</h3>
+   
+    <textarea id="textbox" rows="6" cols="50" placeholder="Add Message"></textarea><br>
+    <input type="button" id="userMsg" value="Add Message">
+    
+    
+<!--------------------- STEP 8 ------------------------>
+     <h3>STEP 8</h3>
+
+     <button id="btn4">STEP 8</button>
+
+<!--------------------- STEP 9 ------------------------>
+   <h3>STEP 9 (use console.log)</h3>
+    
+    <button id="btnStart">START</button>
+    <button id="btnStop">STOP</button>
+    
+<!--------------------- STEP 10 ------------------------>
+   <h3>STEP 10</h3>
+    
+    <p>What is your choice baby?</p>
+    <select id="choice">
+        <option value="to be rich">To be rich</option>
+        <option value="to be smart">to be smart</option>
+        <option value="to be very attractive">to be very attractive</option>
+        <option value="to be saint">to be saint</option>
+    </select>
+    <input type="button" id="btnChoice" value="Select" />
+        
+        
+</body>
+</html>
